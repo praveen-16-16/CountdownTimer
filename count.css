@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+    
+}
+.container__text{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.container__input--minutes,
+.container__input--second,
+.container__input--hour{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    width: 100px;  
+    color:aliceblue;
+    
+    
+}
+.container__button--start,
+.container__button--stop,
+.container__button--reset{
+    border-radius: 5px;
+    padding: 10px 60px;
+    cursor: pointer;
+    margin-top: 8px;
+    
+    
+}
+.container__button--start{
+    background-color: rgb(6, 83, 6);
+    color: white;
+}
+.container__button--stop{
+    background-color: red;
+    color: white;
+    display: none;
+}
+.container__button--reset{
+    background-color: blue;
+    color: white;
+}
+.container__input--hourinput{
+    width: 2px;
+}
+  .back{
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+  }  
